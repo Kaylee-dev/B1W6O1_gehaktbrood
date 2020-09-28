@@ -1,7 +1,46 @@
 body{
-	background-color: red;
+	font-family: 'Roboto', sans-serif;
 }
 
-#gehaktbrood{
+#meatloaf{
 	font-size: 36px;
+	line-height: 36px;
+}
+
+#ingredients{
+	font-size: 36px;
+	line-height: 36px;
+}
+
+div{
+	width: 300px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 26px;
+}
+
+p{
+	font-size: 20px;
+}
+
+ul:nth-of-type(1) {
+	list-style-type: none;
+	/*Met list-style-type :none geef je aan dat je geen dots wilt zien.*/
+	margin: 0;
+	padding: 0;
+}
+
+li a{/*Hier zorg ik er voor dat hij alleen de list met de ahref pakt en niet alle li*/
+	float: left;
+}
+
+a {
+	padding: 8px;
+	background-color: #def6ed;
+}
+
+ul:nth-of-type(2){
+	font-size: 20px;
 }
